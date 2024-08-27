@@ -1,8 +1,10 @@
-mod guess_game;
-fn main() {
-    let x = 5;
-    let x = x + 1;
-    let x = x * 2;
+mod control_flow;
+mod ownership;
+use crate::control_flow::{cf, lp};
+use crate::ownership::ownership;
 
-    println!("Value of x is {}", x)
+fn main() {
+    cf();
+    lp();
+    ownership();
 }
