@@ -1,2 +1,2 @@
 mod ownership;
-pub use ownership::ownership;
+pub use ownership::{first_word, ownership};
