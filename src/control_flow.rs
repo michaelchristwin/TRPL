@@ -38,5 +38,9 @@ pub fn lp() {
     for number in (1..5).rev() {
         println!("{}", number)
     }
+    // Including end number
+    for x in 1..=5 {
+        println!("Number {}", x)
+    }
     println!("LIFTOFF🚀🚀")
 }
