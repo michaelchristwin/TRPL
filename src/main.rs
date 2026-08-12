@@ -1,10 +1,9 @@
-mod control_flow;
-mod conversion;
-mod ownership;
+mod basics;
+mod intermediate;
 
-use crate::control_flow::{cf, lp};
-use crate::conversion::{convert_from, convert_into, convert_string, convert_try};
-use crate::ownership::{first_word, ownership};
+use crate::basics::control_flow::{cf, lp};
+use crate::basics::conversion::{convert_from, convert_into, convert_string, convert_try};
+use crate::intermediate::ownership::{first_word, ownership};
 
 #[allow(dead_code)]
 enum Color {
