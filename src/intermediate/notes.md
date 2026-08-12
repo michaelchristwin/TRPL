@@ -10,3 +10,5 @@ Rust provides a construct called `Box` for putting data on the heap.
 2. Variables Cannot Be Used After Being Moved
 
 > Moved heap data principle: if a variable x moves ownership of heap data to another variable y, then x cannot be used after the move.
+
+3. Pointer Safety Principle: data should never be aliased and mutated at the same time.
